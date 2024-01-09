@@ -1,0 +1,77 @@
+.monocle-travel {
+  margin: 40px 40px 0;
+}
+
+.monocle-travel .header {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid gray;
+  padding-bottom: 10px;
+}
+.monocle-travel .header .series-number {
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.monocle-travel .header .App-logo {
+  height: 2rem;
+}
+.monocle-travel .header span.sub1 {
+  text-transform: uppercase;
+}
+.monocle-travel .header span.sub2 {
+  font-style: italic;
+}
+
+.monocle-travel .body .categories {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: 1px solid gray;
+}
+.monocle-travel .body .categories .cat {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+.monocle-travel .body .categories .cat .icon {
+  background-color: orange;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.monocle-travel .body .subjects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: orange;
+}
+.monocle-travel .body .subjects .subject{
+  padding: 15px 0;
+  border-bottom: 1px solid gray;
+}
+
+.monocle-travel .image {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.monocle-travel .footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.monocle-travel .footer p {
+  max-width: 600px;
+  font-style: italic;
+  text-align: center;
+}
+.monocle-travel .footer .dots {
+  color: blue;
+}
