@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.App.counter {
+  padding: 100px;
+}
+.App.counter button {
+  margin: 30px;
+}
