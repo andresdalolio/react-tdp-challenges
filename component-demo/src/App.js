@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import ButtonCSS from './ButtonCSS';
+import ButtonReactStyle from './ButtonReactStyle';
+import ButtonSassStyle from './ButtonSassStyle';
 
 function App() {
+  const buttonStyle = {
+    backgroundColor: 'blue',
+    color: 'white',
+    padding: '10px',
+    borderRadius: '5px',
+    cursor: 'pointer',
+  };
+  const buttonHoverStyle = {
+    backgroundColor: 'darkblue',
+  };
+  const buttonActiveStyle = {
+    backgroundColor: 'lightblue',
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <h1>Button Style Plain CSS</h1>
+        <ButtonCSS>Button CSS</ButtonCSS>
+      </div>
+      <hr></hr>
+      <div>
+        <h1>Button React Styled Components</h1>
+        <ButtonReactStyle style={buttonStyle} buttonHoverStyle={buttonHoverStyle} buttonActiveStyle={buttonActiveStyle}>Button React Style</ButtonReactStyle>
+      </div>
+      <hr></hr>
+      <div>
+        <h1>Button CSS Modules SASS</h1>
+        <ButtonSassStyle>ButtonSassStyle</ButtonSassStyle>
+      </div>
     </div>
   );
 }

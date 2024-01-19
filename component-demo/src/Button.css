@@ -1,0 +1,18 @@
+.button-css {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button-css:hover {
+  background-color: #025536;
+}
+.button-css:active {
+  background-color: #5afbc0;
+}
