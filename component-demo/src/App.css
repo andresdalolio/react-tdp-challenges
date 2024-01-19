@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 40px;
 }
 
 .App-logo {
@@ -35,4 +36,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.free-drag {
+  background-color: lightblue;
+  height: 300px;
+  box-sizing: border-box;
 }
